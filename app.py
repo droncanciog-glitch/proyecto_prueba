@@ -3,7 +3,7 @@ import pandas as pd
  
 st.title(" Mini Análisis de Datos")
  
-archivo = st.file_uploader("Sube un CSV", type="xlsx")
+archivo = st.file_uploader("Sube un xlsx", type="xlsx")
  
 if archivo:
     df = pd.read_csv(archivo)
